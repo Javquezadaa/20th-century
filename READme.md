@@ -6,33 +6,33 @@ We created a new virtual environement for the task Achievement 1.4 named venv_1.
 requierements were not fully compatible with the newer Python versions. Downgrading Python fixed the errors we were encountering.
 We Installed Numpy 1.23 because they are certain  libraries  on the project just would work with that version. Then we activated the environement.
 
-#Reproductible Set Up
+# Reproductible Set Up
 
-##Cloning the Repository
+## Cloning the Repository
 1. Go to Desktop : cd ~/Desktop
 2. Cloning Repository: git clone git@github.com:Javquezadaa/20th-century.git
 3. Going to the folder : cd 20th-century
 
-##Moving Jupyter Notebook and files into the new repository
+## Moving Jupyter Notebook and files into the new repository
 1. Example: move Task 1.4 notebook into the repo folder: mv ~/Desktop/Task\ 1.4.ipynb
 
-##Creating a Virtual environement with Python 3.9
+## Creating a Virtual environement with Python 3.9
 1. conda create-n venv_1.4 python=3.9
 
-##Activate Environement.
+## Activate Environement.
 1. conda activate venv_1.4
 
 
 2. Cloning Repository: git clone git@github.com:Javquezadaa/20th-century.git
 3. Going to the folder : cd 20th-century
 
-##Moving Jupyter Notebook and files into the new repository
+## Moving Jupyter Notebook and files into the new repository
 1. Example: move Task 1.4 notebook into the repo folder: mv ~/Desktop/Task\ 1.4.ipynb
 
-##Creating a Virtual environement with Python 3.9
+## Creating a Virtual environement with Python 3.9
 1. conda create-n venv_1.4 python=3.9
 
-##Activate Environement.
+## Activate Environement.
 1. conda activate venv_1.4
 
 ## Instaling Required Packages.
