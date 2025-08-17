@@ -10,9 +10,17 @@ We Installed Numpy 1.23 because they are certain  libraries  on the project just
 # Reproductible Set Up
 
 ## Cloning the Repository
-1. Go to Desktop : cd ~/Desktop
-2. Cloning Repository: git clone git@github.com:Javquezadaa/20th-century.git
-3. Going to the folder : cd 20th-century
+```bash
+git clone git@github.com:Javquezadaa/20th-century.git
+
+
+```
+
+```bash
+'bdshfbjdfbdjbfdbsdbsbdfbkd' 
+```
+Cloning Repository: git clone git@github.com:Javquezadaa/20th-century.git
+2. Going to the folder : cd 20th-century
 
 ## Moving Jupyter Notebook and files into the new repository
 1. Example: move Task 1.4 notebook into the repo folder: mv ~/Desktop/Task\ 1.4.ipynb
