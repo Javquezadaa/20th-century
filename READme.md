@@ -1,4 +1,5 @@
 # Cloning Repository and virtual environements.
+
 First we cloned the 20th-century repository.
 We transfered the documents : requierements_1.4.txt and 1.4 Accesing web data without API-final.ipynb from the old file in Desktop to the new cloned one
 called 20th-Century. After we proceded to delete the file on the Desktop.
