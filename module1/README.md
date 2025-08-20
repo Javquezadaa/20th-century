@@ -203,6 +203,8 @@ flowchart TD
     I --> J[Save to .txt File]
     J --> K[Close Browser & Finish]
 
+```
+
 # ✅ Notes for Future Runs
 
 1. Always check the Chrome version before starting.  
