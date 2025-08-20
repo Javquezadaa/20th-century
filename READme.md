@@ -1,55 +1,95 @@
 # Cloning Repository and virtual environements.
 
-First we cloned the 20th-century repository.
-We transfered the documents : requierements_1.4.txt and 1.4 Accesing web data without API-final.ipynb from the old file in Desktop to the new cloned one
-called 20th-Century. After we proceded to delete the file on the Desktop.
-We created a new virtual environement for the task Achievement 1.4 named venv_1.4 and we downloaded Python 3.9 to downgrade Python 3.12  because the projects
-requierements were not fully compatible with the newer Python versions. Downgrading Python fixed the errors we were encountering.
-We Installed Numpy 1.23 because they are certain  libraries  on the project just would work with that version. Then we activated the environement.
+We cloned the 20th-Century repository and transferred the files requirements_1.4.txt and 1.4 Accessing Web Data without API-final.ipynb from the Desktop to the repository, then deleted the originals from the Desktop.
+
+A new virtual environment, venv_1.4, was created for Task Achievement 1.4. Python was downgraded to 3.9 to ensure compatibility with the project requirements, resolving prior errors. We installed NumPy 1.23 to meet library version requirements and then activated the virtual environment.
+
+
 
 # Reproductible Set Up
 
-## Cloning the Repository
+## 1. Cloning the Repository
 ```bash
 git clone git@github.com:Javquezadaa/20th-century.git
 
-
 ```
+
+ Going to the folder : 
+   ```bash 
+   cd 20th-century
+ 
+   ```
+
+## 2. Moving Jupyter Notebook and files into the new repository
+   
+   Example: move Task 1.4 notebook into the repo folder: 
+ ```bash    
+ mv ~/Desktop/Task\ 1.4.ipynb
+ 
+   ```
+
+
+## 3. Creating a Virtual environement with Python 3.9
 
 ```bash
-'bdshfbjdfbdjbfdbsdbsbdfbkd' 
+ conda create-n venv_1.4 python=3.9
 ```
-Cloning Repository: git clone git@github.com:Javquezadaa/20th-century.git
-2. Going to the folder : cd 20th-century
 
-## Moving Jupyter Notebook and files into the new repository
-1. Example: move Task 1.4 notebook into the repo folder: mv ~/Desktop/Task\ 1.4.ipynb
+## 4. Activate Environement.
+```bash
+ conda activate venv_1.4
+ ```
+Cloning Repository: 
+```bash
+git clone git@github.com:Javquezadaa/20th-century.git
+```
+ Going to the folder :
+ 
+ ```bash
+  cd 20th-century
+  ```
 
-## Creating a Virtual environement with Python 3.9
-1. conda create-n venv_1.4 python=3.9
+## 5. Moving Jupyter Notebook and files into the new repository
+ Example: move Task 1.4 notebook into the repo folder:
+ 
+ ```bash
+  mv ~/Desktop/Task\ 1.4.ipynb
+```
 
-## Activate Environement.
-1. conda activate venv_1.4
+## 6. Creating a Virtual environement with Python 3.9
+ ```bash
+conda create-n venv_1.4 python=3.9
+   ```
 
+## 7. Activate Environement.
+```bash 
+conda activate venv_1.4
+```
 
-2. Cloning Repository: git clone git@github.com:Javquezadaa/20th-century.git
-3. Going to the folder : cd 20th-century
+## 8. Instaling Required Packages.
+For example installing Numpy 1.23 : 
 
-## Moving Jupyter Notebook and files into the new repository
-1. Example: move Task 1.4 notebook into the repo folder: mv ~/Desktop/Task\ 1.4.ipynb
+```bash 
+pip install  numpy==1.23
+pip install pandas matplotlib jupyter
+```
 
-## Creating a Virtual environement with Python 3.9
-1. conda create-n venv_1.4 python=3.9
+## 9. Starting Jupyter: Opening a script or creating a new one.
 
-## Activate Environement.
-1. conda activate venv_1.4
+a. Adding the Notebook to Git : 
+```bash
+git add " Task 1.4"
+```
 
-## Instaling Required Packages.
-1. For example installing Numpy 1.23 : pip install  numpy==1.23
-                                     : pip install pandas matplotlib jupyter
-
-## Starting Jupyter: Opening a script or creating a new one.
-1. Adding the Notebook to Git : git add " Task 1.4"
-2. Commiting the changes : git commit -m "Add Task 1.4 notebook"
-3. Pulling  any remote changes before pushing:  git pull origin main --rebase
-4. Pushing to GitHub: git push origin main 
+b. Commiting the changes :
+```bash
+ git commit -m "Add Task 1.4 notebook" 
+ ```
+c. Pulling  any remote changes before pushing:  
+```bash
+ git pull origin main --rebase
+ ```
+d. Pushing to GitHub: 
+```bash
+git push origin main 
+```
