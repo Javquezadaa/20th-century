@@ -3,3 +3,6 @@ pandas == 1.5.1
 seaborn == 0.12.1
 matplotlib == 3.5.3
 nltk == 3.7
+pyvis == 0.3.1
+seaborn == 0.12.1
+cdlib
